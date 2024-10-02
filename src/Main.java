@@ -8,7 +8,7 @@ public class Main {
         System.out.print("Input the number of batches(12 per batch):");
         int batches = scanner.nextInt();
 
-        System.out.printf("Recipe : Chocolate chip cookies (makes "+batches*12+" cookies)`\n\n"
+        System.out.printf("Recipe : Chocolate chip cookies (makes "+batches*13+" cookies)`\n\n"
         +"Ingredients: "+ batches* 4 +"oz sugar\n"
         +"-            "+ batches* 4 +"oz butter\n"
         +"-            "+ batches* 8 +"oz self raising flower\n"
@@ -18,6 +18,7 @@ public class Main {
         +"step 2 : Stir in egg, a few drops of vanilla essence and chocolate"
         +" chips.\n"
         +"step 3 : Roll out mixture and cut out cookies.\n"
-        +"step4 : Bake in hot oven (Gas Mark 6) for 10-12 minutes.");
+        +"step4 : Bake in hot oven (Gas Mark 6) for 10-12 minutes."
+        +"james");
     }
 }
